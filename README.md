@@ -15,6 +15,7 @@ CREATE TABLE userinfo (
     account VARCHAR(30) NOT NULL UNIQUE,
     pwd VARCHAR(30) NOT NULL
 );
+
 insert into userinfo (account, pwd) value('linjie', '123');
 
 ## Start
