@@ -13,6 +13,6 @@ CREATE TABLE userinfo (
     account VARCHAR(30) NOT NULL UNIQUE,
     pwd VARCHAR(30) NOT NULL
 );
-insert into userinfo (account, pwd) value('linjie', '123')
+insert into userinfo (account, pwd) value('linjie', '123');
 
 3. Enter http://localhost/login/index.html in the browser to start running the web page
