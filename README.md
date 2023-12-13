@@ -1,10 +1,12 @@
 # login
 
-1. Environment Setup:
+This project involves the development of a user authentication system, Utilizing a combination of HTML and CSS for the frontend design, PHP for server-side scripting, and a backend database for data storage and retrieval, the system is engineered to handle user credentials securely. The primary function is to validate user login credentials against stored data and provide appropriate feedback based on the authentication result.
+
+## Environment Setup:
 Ensure that your development environment has a PHP server and a database (mariadb) installed.
 If you're presenting this to others, set up a live server or use a platform like AWS(Apache Web Server), or similar services.
 
-2. Database Preparation:
+## Database Preparation:
 Create a test database with a users table.
 Include some dummy data for testing the login functionality.
 
@@ -15,4 +17,5 @@ CREATE TABLE userinfo (
 );
 insert into userinfo (account, pwd) value('linjie', '123');
 
-3. Enter http://localhost/login/index.html in the browser to start running the web page
+## Start
+Enter http://localhost/login/index.html in the browser to start running the web page
